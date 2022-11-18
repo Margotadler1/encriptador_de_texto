@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fafafa;
+}
+
+header {
+    width: 100%;
+    float: left;
+    background-color: lightblue;
+}
+
+.logoAlura {
+    margin: 1%;
+    margin-left: 1.5%;
+    float: inherit;
+}
+
+#title {
+    margin-left: 1%;
+    margin-top: 4%;
+    float: inherit;
+    font-size: 20px;
+    font-family: helvetica;
+    justify-content: initial;
+    color: #0A3871;
+}
+
+.contenedor {
+    width: 940px;
+    height: 720px;
+    margin: auto;
+    background: lightblue;
+    padding: 25px;
+    box-shadow: 2px 2px 2px;
+}
+
+/*Seccion Izquierda*/
+
+.left {
+    width: 70%;
+    float: left;
+    background-color: #0A3871;
+    height: 77%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px;
+}
+
+.input-texto {
+    width: 80%;
+    height: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 9%;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    font-family: helvetica;
+    box-shadow: 2px 2px 2px;
+}
+
+/* Area de Botones */
+
+.buttons {
+    width: 70%;
+    height: auto;
+    float: left;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.advertencia {
+    text-align: center;
+    font-size: 15px;
+    font-family: calibri;
+    color: rgb(80, 80, 80)
+}
+
+/* Seccion Derecha */
+
+.right {
+    width: 30%;
+    height: 77%;
+    float: right;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px;
+}
+
+.mensaje {
+    position: relative;
+    width: 90%;
+    height: 52%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 22%;
+    margin-left: 3%;
+    border: none;
+    background-image: url(./img/chico.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+}
+
+.mensaje_no_encontrado {
+    text-align: center;
+    padding: 0%;
+    font-size: 28px;
+    font-family: helvetica;
+    color: rgb(128, 126, 126);
+
+
+}
+
+.ingrese_texto {
+    text-align: center;
+    width: 75%;
+    height: 10%;
+    margin-left: 12%;
+    font-size: 16px;
+    color: rgb(113, 112, 112);
+    font-family: helvetica;
+}
+
+
+ /* Botones */
+
+.btnEncriptar {
+    width: 30%;
+    height: 50%;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #fafafa;
+    font-size: 16px;
+    font-family: helvetica;
+    border: none;
+}
+
+
+.btnEncriptar:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #002aff;
+    transition: 0.5s;
+}
+
+.btnDesencriptar {
+    width: 30%;
+    height: 50%;
+    padding: 16px;
+    border-radius: 25px;
+    margin-left: 10%;
+    background: #0A3871;
+    color: #fafafa;
+    font-size: 16px;
+    font-family: helvetica;
+   border: none;
+}
+
+.btnDesencriptar:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #002aff;
+}
+
+.copiar {
+    width: 70%;
+    height: 10%;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding: 16px;
+    width: 70%;
+    height: 10%;
+    background: #0A3871;
+    color: #fafafa;
+    border-radius: 25px;
+    border: none;
+    display: none;
+    font-size: 16px;
+}
+
+.copiar:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(0.9);
+    box-shadow: 0 0 30px #002aff;
+}
